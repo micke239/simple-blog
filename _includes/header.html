@@ -1,0 +1,20 @@
+<header class="header">
+
+  <img class="header__img" width="80" height="80"
+  	src="https://s.gravatar.com/avatar/8c6a687cff034d254487c6acbb6b0062?s=160" />
+
+  <h1 class="header__title">
+  	<a class="header__title-anchor" href="/">{{ site.header.title }}</a>
+  </h1>
+  <h2 class="header__summary">{{ site.header.summary }}</h2>
+
+  <nav class="header__nav">
+
+  {% if site.github_username %}
+    <a class="header__nav-item" href="https://github.com/{{ site.github_username }}">Github</a>
+  {% endif %}
+
+    <a class="header__nav-item" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+  </nav>
+
+</header>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {% for post in site.posts %}
+    <section class="post-teaser">
+      <header>
+        <h2 class="post-teaser__title">
+          <a class="post-teaser__title-anchor" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-teaser__meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.author %} 
+            • {{ post.author }}
+          {% endif %}
+          {% for category in post.categories %}
+            <span class="post-category--{{category}}">{{category}}</span>
+          {% endfor %}
+        </p>
+      </header>
+      <div class="post-teaser__content">
+       {{ post.teaser }} <a href="{{ post.url }}">Read more &raquo;</a>
+      </div>
+    </section>
+  {% endfor %}
+</div>

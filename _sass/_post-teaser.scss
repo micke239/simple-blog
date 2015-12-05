@@ -1,0 +1,22 @@
+.post-teaser {
+	margin-bottom: $spacing-unit * 2;
+    border-bottom: 1px solid #eee;	
+}
+
+.post-teaser__title {
+	@extend .post__title;
+}
+
+.post-teaser__title-anchor {
+	&, &:visited, &:hover, &:active {
+		color: inherit;
+	}
+}
+
+.post-teaser__meta {
+	@extend .post__meta;
+}
+
+.post-teaser__content {
+	@extend .post__content;
+}
