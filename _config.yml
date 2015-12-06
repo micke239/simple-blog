@@ -17,6 +17,9 @@ github_username:  micke239
 # Build settings
 markdown: kramdown
 
+#folder settings
+permalink: /:title
+
 # header
 header:
   title: A simple blog

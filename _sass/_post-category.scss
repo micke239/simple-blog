@@ -9,3 +9,8 @@
 	@extend %post-category;
 	background: #5aba59;
 }
+
+.post-category--css {
+	@extend %post-category;
+	background: #4d85d1;
+}

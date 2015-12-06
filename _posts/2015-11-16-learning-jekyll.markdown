@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Learning Jekyll"
+title:  "Getting started with Jekyll"
 date:   2015-11-16 21:02:50 +0100
 author: Mikael Nilsson
 categories: jekyll
-teaser: <p>I just installed Jekyll for the first time, thinking that a static site generator would fit perfectly for what I'm about to do.</p>It was all very simple, I had everything needed already installed on my system. Except of Jekyll, of course.
+teaser: <p>I just installed Jekyll for the first time, thinking that a static site generator would fit perfectly for what I'm about to do.</p><p>It was all very simple, I had everything needed already installed on my system. Except of Jekyll, of course. ...</p>
 ---
 
 ## Installing

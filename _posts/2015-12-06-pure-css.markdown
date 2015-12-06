@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Applying style to my new blog"
+date:   2015-12-06 20:42 +0100
+author: Mikael Nilsson
+categories: css
+teaser: <p>Even with awesome sites like <a href="https://coolors.co/">https://coolors.co/</a>, picking fonts and colors has never been something I've been good at. That's why frameworks like <a href="http://getbootstrap.com/">bootstrap</a> and <a href="http://purecss.io/">pure css</a> are such amazing tools. ...</p>
+---
+
+## Styling skills
+
+Even with awesome sites like <https://coolors.co/>, picking fonts and colors has never been something I've been good at. That's why frameworks like [bootstrap](http://getbootstrap.com/) and [pure css](http://purecss.io/) are such amazing tools.
+
+The current style is based upon <http://purecss.io/layouts/blog/>. 
+
+## Keeping the css small
+
+I've picked the bits that I need to make stuff look good by hand instead of including everything from the [pure.css framework](http://purecss.io/). CSS frameworks are awesome, but by using a framework you include loads of bytes that won't affect the user at all.
+
+There are, of course, arguments for including everything. It makes developing faster, for one. Another argument could be that by including all of the framework and using only that, you'd actually end up with a smaller css file later on when the project grows large.
+
+In this case, however, I believe keeping the file light and tight is the way to go.
+
+## User experience
+
+Another thing I've never been good at but always interested in learning, is UX. I've actually applied lots of stuff from the hilarious satire site [better motherfucking website](http://bettermotherfuckingwebsite.com/). 
+
+The key points I took with me to this site is:
+
+* Larger line hight
+* Less contrast
+* Large font-size (especially important for smart phones)
+* Smaller line width for posts
+
+## Finally: images of the blog today
+
+For historical purposes, here are some images of what the site looks like right now:
+
+### Desktop
+
+{: style="text-align: center"}
+![desktop]
+
+### Phone
+
+{: style="text-align: center"}
+![phone]
+
+
+[desktop]: http://res.cloudinary.com/http-micke239-github-io/image/upload/c_scale,h_672/v1449434164/Sk%C3%A4rmavbild_2015-12-06_kl._21.33.53_sqvrsx.png
+
+[phone]: http://res.cloudinary.com/http-micke239-github-io/image/upload/c_scale,h_672/v1449434155/Sk%C3%A4rmavbild_2015-12-06_kl._21.34.55_nllsgf.png
